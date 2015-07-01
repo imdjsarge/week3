@@ -186,7 +186,7 @@ nav ul {
 /* Hide image gallery below 550px */
 
 @media only screen and (max-width: 550px) {
-    #gallery img {
+    #gallery {
         display: none;
     }
 }
@@ -232,3 +232,4 @@ nav ul {
     .mobile {
         display: inline;
     }
+}
