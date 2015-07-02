@@ -42,15 +42,15 @@
         
         
         
-<form name="Reservations" method="get" id="order" action="http://webdevbasics.net/scripts/pacific/php">
+<form name="Reservations" method="post" id="Reservations" action="http://webdevbasics.net/scripts/pacific/php">
     <label for="myFName">* First Name:</label>
-    <input type="text" name="myFName" id="myFName">
+    <input type="text" name="myFName" id="myFName" required="required">
     <label for="myLName">* Last Name:</label>
-    <input type="text" name="myLName" id="myLName">
+    <input type="text" name="myLName" id="myLName" required="required">
     <label for="myEmail">* Email:</label>
-    <input type="text" name="myEmail" id="myEmail">
+    <input type="email" name="myEmail" id="myEmail" size="40">
     <label for="myPhone">Phone:</label>
-    <input type="text" name="myPhone" id="myPhone">
+    <input type="tel" name="myPhone" id="myPhone">
     <label for="myArrival">Arrival Date:</label>
     <input type="date" name="myArrival" id="myArrival">
     <label for="myNights">Nights:</label>
@@ -58,7 +58,7 @@
     <label for="myComments">* Comments:</label>
     <textarea name="comments" id="myComments" rows="4" cols="40"></textarea>
 
-    <input id="mySubmit" type="submit" value="Submit">
+    <input type="submit">
 
 </form>
         

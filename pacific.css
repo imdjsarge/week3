@@ -32,6 +32,7 @@ nav a:visited {
     color: #344873;
 }
 nav a:hover {
+    transition: 3s ease-out;
     color: white;
 }
 .float {
@@ -58,6 +59,15 @@ h1 {
     padding-right: 20px;
     padding-bottom: 20px;
     margin-left: 190px;
+}
+
+#content img, #content video, #content embed {
+    float: left;
+    padding-right: 20px;
+}
+
+video {
+    width: 320px; height: 240px;
 }
 #content li {
     list-style-image: url(images/marker.gif);
@@ -264,6 +274,7 @@ input {
         display: inline;
     }
     label {
+    float: none;
     display: block;
     text-align: left;
     width: 120px;
@@ -273,6 +284,7 @@ input {
 input {
     display: block;
     margin-bottom: 20px;
+    
 }
 
 }
